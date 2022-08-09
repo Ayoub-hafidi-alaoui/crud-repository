@@ -1,0 +1,5 @@
+<h1>index</h1>
+
+{% for repository in repositories %}
+<h2><a href="{% url 'show_repository' repository.id %}">{{repository}}</a></h2>
+{% endfor %}
