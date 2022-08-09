@@ -16,6 +16,7 @@ class Repository(models.Model):
     following = models.IntegerField(null=True)
     pullRequestsName = models.CharField(max_length=100)
     pullRequestsStatus = models.CharField(max_length=100)
+    branchName = models.TextField(max_length=100)
     
     
     
