@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class Github(models.Model):
+class Repository(models.Model):
     username = models.CharField(max_length=100)
     description = models.TextField(max_length=1000)
     repositoryName = models.CharField(max_length=100)

@@ -1,7 +1,7 @@
 from django import forms
-from .models import Github
+from .models import Repository
 
 class RepositoryForm(forms.ModelForm):
     class Meta:
-        model = Github
+        model = Repository
         fields = ['repositoryName', 'repositoryDescription']

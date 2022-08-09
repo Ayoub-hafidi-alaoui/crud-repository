@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Github
+from .models import Repository
 # Register your models here.
 
-admin.site.register(Github)
+admin.site.register(Repository)
